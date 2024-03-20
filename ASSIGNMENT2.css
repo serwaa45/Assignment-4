@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 144);
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.root{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    width: 600px;
+    height: 650px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav{
+    border: 1px solid white;
+    display: flex;
+    flex-basis:50px;
+    top: 0px;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    padding: 3px;
+    margin: 5px;
+}
+#items{
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    color: aquamarine;
+    margin-right: 20px;
+}
+main{
+    display: grid;
+    border: 1px solid white;
+    flex-basis: auto;
+    flex-grow: 1px;
+    height: 550px;
+    grid-template-columns: 100px 500px;
+    
+}
+aside{
+    border: 1px solid white;
+   /* height: inherit;
+    width: 100px;*/
+    position: sticky;
+    
+}
+section{
+    display: grid;
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    border: 1px solid white;
+    flex-basis: 50px;
+    text-decoration: none;
+}
+.ghub{
+    text-decoration: none;
+    padding: 5px;
+}
+.circle{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 150px;
+    align-items: center;
+
+    
+}
+#photo{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+#emoji{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    top: 20px;
+    position: absolute;
+    right: 15px;
+    
+}
+#container{
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 210px 210px 210px;
+    left: 1px;
+    position: relative;
+    gap: 15px;
+    bottom: -35px;
+    
+}
+img{
+    height: 210px;
+    width: 150px;
+    display: flex;
+    bottom: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.movie1{
+    left: 10px;
+    position: relative;
+}
+.movie2{
+    position: relative;
+    right: -10px;
+}
+.movie3{
+    position: relative;
+    right: -5px;
+}
+h2{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    
+}
+#date{
+    position: absolute;
+    display: flex;
+    bottom: -60px;
+    left: 5px;
+}
+.Title{
+    position: absolute;
+    display: flex;
+    bottom: -25px;
+    left: 5px;
+    
+
+    
+}
